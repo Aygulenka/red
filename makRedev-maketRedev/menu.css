@@ -1,0 +1,58 @@
+#menu{
+  display: flex;
+  height:100%;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  flex-flow: wrap;
+ }
+#kartochka, #kartochka1, #kartochka2, #kartochka3{
+
+background-repeat: no-repeat;
+background-color: #fff;
+border: 3px solid #dbd5d9;
+}
+.soft{
+  max-width: 200px;
+}
+#container{
+display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+#spec, #spec2{
+    padding-top: 15px; 
+     padding-bottom: 5px; 
+    /* max-width: 1300px
+px
+; */
+    /* width: 864px; */
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+    /* justify-content: center; */
+     align-content: center;
+
+}
+#opis{
+text-align:center;
+background-color:#fff;
+margin-top:0px;
+}
+#kupit, #but, #but1, #but2, #but3{
+  font-size:15;
+  background: #db379a;
+  border-radius: 50px 50px 50px 50px;
+  width:80%;
+  padding: 10px 20px 10px 20px;
+}
+#spec1{
+        padding-top: 15px;
+    padding-bottom: 5px;
+}
+.soft{
+  transition: 1s;
+}
+.soft:hover{
+  transform: scale(1.5);
+}

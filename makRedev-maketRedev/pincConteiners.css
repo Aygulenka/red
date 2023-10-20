@@ -1,0 +1,127 @@
+#pincConteiners{
+    display: flex;
+    /* flex-direction: initial; */
+    /* flex-flow: row nowrap; */
+    height: 100%;
+    /* align-self: center; */
+    /* align-content: center; */
+    justify-content: center;
+    flex-flow: row;
+    /* background: #fff; */
+    /* width: 823px; */
+    /* flex-flow: wrap; */
+    /* width: initial; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* align-self: center; */
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap;
+    /* height: 230px;*/
+}
+#cont1{
+    background: #db379a;
+    padding: 15px;
+    /* margin-right: 30px; */
+    width: 400px;
+    height: 100%;
+    min-height: 230px;
+    flex-flow: wrap;
+    margin: 3px;
+    border: 5px solid #dbd5d9;
+}
+#cont2{
+background: #db379a;
+    padding: 15px;
+    /* margin-right: 30px; */
+    width: 400px;
+    height: 100%;
+    min-height: 230px;
+    flex-flow: wrap;
+    margin: 3px;
+    border: 5px solid #dbd5d9;
+}
+#letter{
+width: 150px;
+    height: 120px;
+    border: 6px solid #fff;
+    border-radius: 25px;
+    float: right;
+    margin-top: 6%;
+}
+
+#treug {
+    display: inline-block;
+    border: 60px solid transparent;
+    border-top: 70px solid #fff;
+    position: relative;
+    /* top: -55px; */
+    /* left: -65px; */
+ left: 7px;
+    top: 10px;
+}
+#treug:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -70px;
+    left: -55px;
+    border: 55px solid transparent;
+    border-top: 62px solid #db379a;
+}
+#textCont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7%;
+}
+#kupit{
+  font-size:15;
+  background: #db379a;
+  border-radius: 50px 50px 50px 50px;
+  width:80%;
+  padding: 10px 20px 10px 20px;
+}
+#email{
+  border-radius: 25px;
+  padding: 5px;
+}
+#buttonMap{
+    border-radius: 25px;
+    padding: 5px;
+    background: #db379a;
+    border: 3px solid #fff;
+}
+#cCar{
+    position: relative;
+    text-align: center;
+    color: white;
+float: right;
+  padding-top: 5%;
+  padding-left: 15px;
+
+}
+  #car{
+          float: right;
+    width: 150px;
+    height: 120px;
+    /* border: 6px solid #fff; */
+    /* border-radius: 25px; */
+    margin-top: 6%;
+  }
+
+#centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  color:#fff;
+  opacity:0;
+}
+#centered:hover{
+  width:150px;
+  height:100%;
+  background: #db379a;
+  opacity:1;
+}

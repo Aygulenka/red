@@ -1,0 +1,10 @@
+#kartochka-click, #kartochka1-click, #kartochka2-click, #kartochka3-click{
+
+background-repeat: no-repeat;
+background-color: #fff;
+border: 3px solid #dbd5d9;
+  display:none;
+}
+#spec2{
+  display:none;
+}

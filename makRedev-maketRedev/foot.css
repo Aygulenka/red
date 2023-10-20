@@ -1,0 +1,20 @@
+#imgFoot{
+  width:300px;
+
+}
+#fFooter{
+     /* text-align: center; */
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#pol{
+  padding-left:50px;
+}
+#min{
+  font-size:10px;
+}

@@ -1,0 +1,55 @@
+#chair{
+  display: flex;
+     flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #db379a;
+  height:auto;
+   width: 100%;
+   margin: 0px; 
+}
+
+
+#cChair{
+  background: #eb7fbf;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 19em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(https://img.freepik.com/premium-photo/white-modern-oval-shape-relax-chair-as-clay-style-on-a-pink-background-3d-rendering_476612-19112.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 25px solid #eb7fbf;
+  margin-left: 10%;
+  height: 19em;
+}
+#textChair{
+padding-left: 20%;
+}
+
+#chairSuper{
+  font-size: 5ch;
+}
+#knopka{
+  align-self: center;
+  padding: 5px;
+  margin:10px;
+  height: 30px;
+  width: 150px;
+  border: 3px solid #fff;
+  background-color:#eb7fbf;
+  border-radius: 50px 50px 50px 50px;
+  font-size: 12;
+}
+
+#myDiv {
+  display:none;
+  max-width:300px;
+}
+   
+   
+#asdf{
+  display: flex;
+  flex-direction: column;
+}

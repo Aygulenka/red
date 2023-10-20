@@ -1,0 +1,65 @@
+.flower {
+height: 10px; 
+width: 40px;
+background: linear-gradient(45deg, #db379a 50%, transparent 51%), linear-gradient(315deg, #db379a 50%, transparent 51%);
+background-size: 20px 20px;
+border-bottom: 30px solid #db379a;
+border-bottom-left-radius: 60%;
+border-bottom-right-radius: 60%;
+padding-top:15px;
+align-self: center;
+}
+#flow{
+display: flex;
+color:#db379a;
+}
+#number{
+  align-self: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#call{
+align-self: center;
+height: 30px;
+width: 200px;
+border: 3px solid #db379a;
+border-radius: 50px 50px 50px 50px; 
+padding: 5px 10px 5px 33px;
+}
+* {box-sizing: border-box;}
+#search {
+  position: relative;
+  padding-left:5%;
+  align-self: center;
+
+}
+#buttonSearch, #sSearch {
+  outline: none;
+  background: transparent;
+  align-self: center;
+}
+#sSearch {
+  width: 100%;
+  height: 32px;
+  padding-left: 7%;
+  border: 3px solid #F9F0DA;
+  border-radius: 50px 50px 50px 50px;
+}
+#buttonSearch {
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+#buttonSearch:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 12px;
+  color: #F9F0DA;
+}
+#sSearch:focus {
+  border-color: #311c24;
+}
